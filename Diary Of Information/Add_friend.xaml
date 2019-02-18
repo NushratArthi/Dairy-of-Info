@@ -1,0 +1,50 @@
+﻿<Window x:Class="Diary_Of_Information.Add_friend"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Diary_Of_Information"
+        mc:Ignorable="d"
+        Title="Add Friends" Height="563.298" Width="846.277" ResizeMode="NoResize">
+    <Grid Background="#FF3C3636">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="11*"/>
+            <ColumnDefinition Width="829*"/>
+        </Grid.ColumnDefinitions>
+        <Label Content=" Name" HorizontalAlignment="Left" Margin="44,36,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="18" Width="86" Grid.Column="1" Foreground="White" Height="34"/>
+        <Label Content=" Phone" HorizontalAlignment="Left" Margin="44,102,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="18" Width="86" Grid.Column="1" Foreground="White" Height="34"/>
+        <Label Content="Address" HorizontalAlignment="Left" Margin="44,160,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="18" Width="86" Grid.Column="1" Foreground="White" Height="34"/>
+        <TextBox x:Name="txt_name" HorizontalAlignment="Left" Height="34" Margin="246,36,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="512" FontSize="18" Grid.Column="1"/>
+        <TextBox x:Name="txt_phone" HorizontalAlignment="Left" Height="34" Margin="246,102,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="512" FontSize="18" Grid.Column="1"/>
+        <TextBox x:Name="txt_address" HorizontalAlignment="Left" Height="53" Margin="246,160,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="512" FontSize="18" Grid.Column="1"/>
+        <Label Content="Birthday" HorizontalAlignment="Left" Margin="44,239,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="18" Width="86" Grid.Column="1" Foreground="White" Height="34"/>
+        <Label Content="Gender" HorizontalAlignment="Left" Margin="44,314,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="18" Width="86" Grid.Column="1" Foreground="White" Height="34"/>
+        <RadioButton x:Name="radio_male" Content="Male" HorizontalAlignment="Left" Margin="246,324,0,0" VerticalAlignment="Top" Height="34" FontSize="16" Width="70" Grid.Column="1" Foreground="White"/>
+        <RadioButton x:Name="radio_female" Content="Female" HorizontalAlignment="Left" Margin="409,324,0,0" VerticalAlignment="Top" FontSize="16" Grid.Column="1" Height="34" Width="84" Foreground="White"/>
+        <Button x:Name="submit" Content="Submit" HorizontalAlignment="Left" Margin="246,389,0,0" VerticalAlignment="Top" Width="247" Height="51" FontWeight="Bold" FontSize="24" Grid.Column="1">
+            <Button.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FF2174C7" Offset="0.016"/>
+                    <GradientStop Color="#FF8EC5FD" Offset="1"/>
+                </LinearGradientBrush>
+            </Button.Background>
+        </Button>
+        <Button x:Name="home" Content="Go Home" HorizontalAlignment="Left" Margin="246,459,0,0" VerticalAlignment="Top" Width="512" Height="49" FontSize="24" FontWeight="Bold"  Grid.Column="1" Click="home_click">
+            <Button.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FF1EFD4C" Offset="0"/>
+                    <GradientStop Color="#FFCFFB06" Offset="1"/>
+                </LinearGradientBrush>
+            </Button.Background>
+        </Button>
+        <DatePicker x:Name="date_dob" HorizontalAlignment="Left" Margin="246,239,0,0" VerticalAlignment="Top" Height="34" Width="232" Grid.Column="1"/>
+        <Button x:Name="reset" Content="Reset" HorizontalAlignment="Left" Margin="529,389,0,0" VerticalAlignment="Top" Width="229" Height="51" FontWeight="Bold" FontSize="24" Grid.Column="1">
+            <Button.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FFD12D13" Offset="0"/>
+                    <GradientStop Color="#FFF19687" Offset="1"/>
+                </LinearGradientBrush>
+            </Button.Background>
+        </Button>
+    </Grid>
+</Window>

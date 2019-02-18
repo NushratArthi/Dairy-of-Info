@@ -1,0 +1,61 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows;
+using System.Windows.Controls;
+using System.Windows.Data;
+using System.Windows.Documents;
+using System.Windows.Input;
+using System.Windows.Media;
+using System.Windows.Media.Imaging;
+using System.Windows.Navigation;
+using System.Windows.Shapes;
+
+namespace Diary_Of_Information
+{
+    /// <summary>
+    /// Interaction logic for MainWindow.xaml
+    /// </summary>
+    public partial class MainWindow : Window
+    {
+        public MainWindow()
+        {
+            InitializeComponent();
+        }
+
+        private void log_in_click(object sender, RoutedEventArgs e)
+        {
+            Home hm = new Home();
+            {
+                if(user_name.Text == "admin" && password.Password == "123")
+                {
+                    hm.Show();
+                    this.Close();
+                }
+                else
+                {
+                    MessageBox.Show("Username & Password is incorrect");
+                    user_name.Text = "";
+                    password.Password = "";
+
+                }
+            }
+        }
+
+        private void exit_click(object sender, RoutedEventArgs e)
+        {
+            MessageBoxResult result = MessageBox.Show("Do u want to exit?", "Exit", MessageBoxButton.YesNo);
+            switch(result)
+            {
+                case MessageBoxResult.Yes:
+                    System.Environment.Exit(0);
+                    break;
+                case MessageBoxResult.No:
+                    break;
+
+            }
+        }
+    }
+}
