@@ -8,6 +8,7 @@
        Title="Diary of Information" Height="481.915" Width="846.277"  ResizeMode="NoResize">
     <Grid Background="#FF3C3636">
         <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="209*"/>
             <ColumnDefinition/>
             <ColumnDefinition Width="0*"/>
         </Grid.ColumnDefinitions>
@@ -37,7 +38,7 @@
                 </LinearGradientBrush>
             </Button.BorderBrush>
         </Button>
-        <Label Content="            Welcome To Diary Of Information" HorizontalAlignment="Left" Margin="0,10,0,0" VerticalAlignment="Top" Width="840" Background="#FFF35050" Foreground="White" FontWeight="Bold" FontSize="36" BorderBrush="Red" Padding="5"/>
+        <Label Content="            Welcome To Diary Of Information" HorizontalAlignment="Left" Margin="0,10,0,0" VerticalAlignment="Top" Width="840" Background="#FFF35050" Foreground="White" FontWeight="Bold" FontSize="36" BorderBrush="Red" Padding="5" Grid.ColumnSpan="2"/>
 
     </Grid>
 </Window>
