@@ -46,7 +46,7 @@ namespace Diary_Of_Information
 
         private void exit_click(object sender, RoutedEventArgs e)
         {
-            MessageBoxResult result = MessageBox.Show("Do u want to exit?", "Exit", MessageBoxButton.YesNo);
+            MessageBoxResult result = MessageBox.Show("Do you want to exit?", "Exit", MessageBoxButton.YesNo);
             switch(result)
             {
                 case MessageBoxResult.Yes:
