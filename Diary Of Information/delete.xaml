@@ -8,7 +8,7 @@
         Title="Delete Information" Height="584.042" Width="846.277" ResizeMode="NoResize">
     <Grid Background="#FF3C3636">
         <TextBox x:Name="txt_phone" HorizontalAlignment="Left" Height="51" Margin="119,180,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="374" Text="input phone number" GotFocus="txt_phone_focus"/>
-        <Button x:Name="del" Content="Delete" HorizontalAlignment="Left" Margin="511,180,0,0" VerticalAlignment="Top" Width="153" Height="51" RenderTransformOrigin="0.087,0.178" FontWeight="Bold" FontSize="20">
+        <Button x:Name="del" Content="Delete" HorizontalAlignment="Left" Margin="511,180,0,0" VerticalAlignment="Top" Width="153" Height="51" RenderTransformOrigin="0.087,0.178" FontWeight="Bold" FontSize="20" Click="del_Click">
             <Button.Background>
                 <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                     <GradientStop Color="#FFFF1700" Offset="0"/>

@@ -37,5 +37,23 @@ namespace Diary_Of_Information
             txt_phone.Text = "";
         }
 
+        private void del_Click(object sender, RoutedEventArgs e)
+        {
+
+            string connectionstring = @"Data Source=server_name;Initial Catalog=Database_name;Integrated Security=True";
+            SqlConnection sqlcon = new SqlConnection(connectionstring);
+
+            string commandstring = "delete from table_name where column_name= @a";
+            SqlCommand sqlcmd = new SqlCommand(commandstring, sqlcon);
+            sqlcmd.Parameters.Add("@a", SqlDbType.VarChar).Value = abc.Text;
+            sqlcon.Open();
+            int rows = sqlcmd.ExecuteNonQuery();
+            sqlcon.Close();
+
+            if (rows > 0)
+                MessageBox.Show("Information Has Deleted.");
+
+
+        }
     }
 }
