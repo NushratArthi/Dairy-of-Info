@@ -43,7 +43,7 @@ namespace Diary_Of_Information
 
 
 
-            string connectionstring = @"Data Source=server_name;Initial Catalog=Database_name;Integrated Security=True";
+            string connectionstring = @"Data Source=ARTHI\ARTHISQL;Initial Catalog=diary;Integrated Security=True";
             SqlConnection sqlcon = new SqlConnection(connectionstring);
 
             string commandstring = "update table_name set a=@pre,b=@par  where c=xyz";
