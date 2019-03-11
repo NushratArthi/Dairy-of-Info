@@ -23,5 +23,10 @@ namespace Diary_Of_Information
         {
             InitializeComponent();
         }
+
+        private void update_btn_click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }
