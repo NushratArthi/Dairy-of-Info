@@ -32,5 +32,10 @@ namespace Diary_Of_Information
                 this.Close();
             }
         }
+
+        private void submit_btn_click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }
