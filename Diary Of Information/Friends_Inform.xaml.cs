@@ -40,7 +40,22 @@ namespace Diary_Of_Information
 
         private void search_Click(object sender, RoutedEventArgs e)
         {
+            string connectionstring = @"Data Source=server_name;Initial Catalog=Database_name;Integrated Security=True";
+            SqlConnection sqlcon = new SqlConnection(connectionstring);
+            sqlcon.Open();
+            string commandstring = "select * from table_name";
+            SqlCommand sqlcmd = new SqlCommand(commandstring, sqlcon);
+            SqlDataReader read = sqlcmd.ExecuteReader();
 
+
+            while (read.Read())
+            {
+
+
+
+            }
+
+            sqlcon.Close();
         }
     }
 }
