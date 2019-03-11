@@ -7,6 +7,7 @@
         mc:Ignorable="d"
         Title="Friends Information" Height="563.298" Width="846.277" ResizeMode="NoResize">
     <Grid Background="#FF3C3636">
-        
+        <Label Content="                                      Check Details Here" HorizontalAlignment="Left" Margin="89,23,0,0" VerticalAlignment="Top" Width="687" Height="39" FontSize="24" FontWeight="Bold" Background="#FFFB3E20" Foreground="White" Padding="5,4,5,5" OpacityMask="#FFF74C1A"/>
+
     </Grid>
 </Window>

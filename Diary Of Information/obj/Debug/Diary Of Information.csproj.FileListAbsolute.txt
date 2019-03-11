@@ -38,3 +38,24 @@ C:\Users\Arthi\Source\Repos\NushratArthi\Dairy-of-Info\Diary Of Information\obj\
 C:\Users\Arthi\Source\Repos\NushratArthi\Dairy-of-Info\Diary Of Information\obj\Debug\Diary Of Information.csproj.CoreCompileInputs.cache
 C:\Users\Arthi\Source\Repos\NushratArthi\Dairy-of-Info\Diary Of Information\obj\Debug\Diary Of Information.exe
 C:\Users\Arthi\Source\Repos\NushratArthi\Dairy-of-Info\Diary Of Information\obj\Debug\Diary Of Information.pdb
+C:\Users\Tania\Source\Repos\NushratArthi\Dairy-of-Info\Diary Of Information\bin\Debug\Diary Of Information.exe.config
+C:\Users\Tania\Source\Repos\NushratArthi\Dairy-of-Info\Diary Of Information\bin\Debug\Diary Of Information.exe
+C:\Users\Tania\Source\Repos\NushratArthi\Dairy-of-Info\Diary Of Information\bin\Debug\Diary Of Information.pdb
+C:\Users\Tania\Source\Repos\NushratArthi\Dairy-of-Info\Diary Of Information\obj\Debug\Diary Of Information.csprojAssemblyReference.cache
+C:\Users\Tania\Source\Repos\NushratArthi\Dairy-of-Info\Diary Of Information\obj\Debug\Add_friend.g.cs
+C:\Users\Tania\Source\Repos\NushratArthi\Dairy-of-Info\Diary Of Information\obj\Debug\Friends_Inform.g.cs
+C:\Users\Tania\Source\Repos\NushratArthi\Dairy-of-Info\Diary Of Information\obj\Debug\Home.g.cs
+C:\Users\Tania\Source\Repos\NushratArthi\Dairy-of-Info\Diary Of Information\obj\Debug\MainWindow.g.cs
+C:\Users\Tania\Source\Repos\NushratArthi\Dairy-of-Info\Diary Of Information\obj\Debug\App.g.cs
+C:\Users\Tania\Source\Repos\NushratArthi\Dairy-of-Info\Diary Of Information\obj\Debug\Diary Of Information_MarkupCompile.cache
+C:\Users\Tania\Source\Repos\NushratArthi\Dairy-of-Info\Diary Of Information\obj\Debug\Diary Of Information_MarkupCompile.lref
+C:\Users\Tania\Source\Repos\NushratArthi\Dairy-of-Info\Diary Of Information\obj\Debug\Add_friend.baml
+C:\Users\Tania\Source\Repos\NushratArthi\Dairy-of-Info\Diary Of Information\obj\Debug\Friends_Inform.baml
+C:\Users\Tania\Source\Repos\NushratArthi\Dairy-of-Info\Diary Of Information\obj\Debug\Home.baml
+C:\Users\Tania\Source\Repos\NushratArthi\Dairy-of-Info\Diary Of Information\obj\Debug\MainWindow.baml
+C:\Users\Tania\Source\Repos\NushratArthi\Dairy-of-Info\Diary Of Information\obj\Debug\Diary Of Information.g.resources
+C:\Users\Tania\Source\Repos\NushratArthi\Dairy-of-Info\Diary Of Information\obj\Debug\Diary_Of_Information.Properties.Resources.resources
+C:\Users\Tania\Source\Repos\NushratArthi\Dairy-of-Info\Diary Of Information\obj\Debug\Diary Of Information.csproj.GenerateResource.cache
+C:\Users\Tania\Source\Repos\NushratArthi\Dairy-of-Info\Diary Of Information\obj\Debug\Diary Of Information.csproj.CoreCompileInputs.cache
+C:\Users\Tania\Source\Repos\NushratArthi\Dairy-of-Info\Diary Of Information\obj\Debug\Diary Of Information.exe
+C:\Users\Tania\Source\Repos\NushratArthi\Dairy-of-Info\Diary Of Information\obj\Debug\Diary Of Information.pdb
