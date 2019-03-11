@@ -26,7 +26,20 @@ namespace Diary_Of_Information
 
         private void update_btn_click(object sender, RoutedEventArgs e)
         {
-
+            string name, address, dob, gender;
+            int phone;
+            name = txt_name.Text;
+            phone = int.Parse(txt_phone.Text);
+            address = txt_address.Text;
+            dob = date_dob.SelectedDate.Value.ToShortDateString();
+            if (radio_male.IsChecked.Value == true)
+            {
+                gender = "male";
+            }
+            else
+            {
+                gender = "female";
+            }
         }
     }
 }
