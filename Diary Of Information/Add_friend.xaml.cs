@@ -35,6 +35,20 @@ namespace Diary_Of_Information
 
         private void submit_btn_click(object sender, RoutedEventArgs e)
         {
+            string connectionstring = @"Data Source=server_name;Initial Catalog=Database_name;Integrated Security=True";
+            SqlConnection sqlcon = new SqlConnection(connectionstring);
+
+            SqlCommand cmd = new SqlCommand("insert into table_name(column_names...) values(@a,@b,@c....)", sqlcon);
+
+            cmd.Parameters.Add("@a", SqlDbType.VarChar).Value = name;
+            cmd.Parameters.Add("@b", SqlDbType.Date).Value = datepicker_variable_name.SelectedDate.Value.ToShortDateString();
+            cmd.Parameters.Add("@c", SqlDbType.Int).Value = amount;
+
+            sqlcon.Open();
+            int rows = cmd.ExecuteNonQuery();
+            if (rows > 0)
+                MessageBox.Show("Save");
+            sqlcon.Close();
 
         }
     }
