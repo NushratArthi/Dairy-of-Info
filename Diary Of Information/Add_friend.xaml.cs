@@ -35,7 +35,7 @@ namespace Diary_Of_Information
 
         private void submit_btn_click(object sender, RoutedEventArgs e)
         {
-            string connectionstring = @"Data Source=server_name;Initial Catalog=Database_name;Integrated Security=True";
+            string connectionstring = @"Data Source=ARTHI\ARTHISQL;Initial Catalog=diary;Integrated Security=True";
             SqlConnection sqlcon = new SqlConnection(connectionstring);
 
             SqlCommand cmd = new SqlCommand("insert into table_name(column_names...) values(@a,@b,@c....)", sqlcon);
