@@ -79,7 +79,9 @@ namespace Diary_Of_Information
         }
         void clear()
         {
-            
+            txt_name.Clear();
+            txt_phone.Clear();
+            txt_address.Clear();
         }
     }
 }
