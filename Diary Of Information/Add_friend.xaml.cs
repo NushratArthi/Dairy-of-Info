@@ -72,5 +72,10 @@ namespace Diary_Of_Information
             sqlcon.Close();
 
         }
+
+        private void reset_btn_click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }
