@@ -75,7 +75,11 @@ namespace Diary_Of_Information
 
         private void reset_btn_click(object sender, RoutedEventArgs e)
         {
-
+            clear();
+        }
+        void clear()
+        {
+            
         }
     }
 }
