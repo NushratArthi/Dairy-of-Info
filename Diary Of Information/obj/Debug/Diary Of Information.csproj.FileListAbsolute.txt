@@ -84,3 +84,7 @@ C:\Users\USER\Source\Repos\NushratArthi\Dairy-of-Info\Diary Of Information\obj\D
 C:\Users\USER\Source\Repos\NushratArthi\Dairy-of-Info\Diary Of Information\obj\Debug\modify.g.cs
 C:\Users\USER\Source\Repos\NushratArthi\Dairy-of-Info\Diary Of Information\obj\Debug\modify.baml
 C:\Users\USER\Source\Repos\NushratArthi\Dairy-of-Info\Diary Of Information\obj\Debug\delete.baml
+C:\Users\Arthi\Source\Repos\NushratArthi\Dairy-of-Info\Diary Of Information\obj\Debug\delete.g.cs
+C:\Users\Arthi\Source\Repos\NushratArthi\Dairy-of-Info\Diary Of Information\obj\Debug\modify.g.cs
+C:\Users\Arthi\Source\Repos\NushratArthi\Dairy-of-Info\Diary Of Information\obj\Debug\delete.baml
+C:\Users\Arthi\Source\Repos\NushratArthi\Dairy-of-Info\Diary Of Information\obj\Debug\modify.baml

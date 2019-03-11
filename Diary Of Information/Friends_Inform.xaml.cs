@@ -38,5 +38,9 @@ namespace Diary_Of_Information
             txt_search.Text = "";
         }
 
+        private void search_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }
