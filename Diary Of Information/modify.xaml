@@ -7,7 +7,16 @@
         mc:Ignorable="d"
         Title="Modify Information" Height="584.042" Width="846.277" ResizeMode="NoResize">
     <Grid Background="#FF3C3636">
-        <Button x:Name="search" Content="Search" HorizontalAlignment="Left" Margin="122,23,0,0" VerticalAlignment="Top" Width="172" Height="37" FontWeight="Bold" FontSize="20" Click="search_btn_click">
+        <Button x:Name="update" Content="Update" HorizontalAlignment="Left" Margin="322,403,0,0" VerticalAlignment="Top" Width="477" Height="48" RenderTransformOrigin="0.51,0.27" FontSize="22" FontWeight="Bold">
+            <Button.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FFFF8B00" Offset="0"/>
+                    <GradientStop Color="#FFF1C187" Offset="1"/>
+                </LinearGradientBrush>
+            </Button.Background>
+        </Button>
+        
+        <Button x:Name="search" Content="Search" HorizontalAlignment="Left" Margin="122,23,0,0" VerticalAlignment="Top" Width="172" Height="37" FontWeight="Bold" FontSize="20">
             <Button.Background>
                 <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                     <GradientStop Color="#FF268CF1" Offset="0"/>
