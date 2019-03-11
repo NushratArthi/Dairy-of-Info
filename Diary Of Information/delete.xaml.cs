@@ -40,7 +40,7 @@ namespace Diary_Of_Information
         private void del_Click(object sender, RoutedEventArgs e)
         {
 
-            string connectionstring = @"Data Source=server_name;Initial Catalog=Database_name;Integrated Security=True";
+            string connectionstring = @"Data Source=ARTHI\ARTHISQL;Initial Catalog=diary;Integrated Security=True;
             SqlConnection sqlcon = new SqlConnection(connectionstring);
 
             string commandstring = "delete from table_name where column_name= @a";
