@@ -50,12 +50,20 @@ namespace Diary_Of_Information
             SqlDataReader read = sqlcmd.ExecuteReader();
 
 
-            while (read.Read())
+            if (read.Read())
             {
 
-
-
+                txt_details.Text = "name: " + read[0].ToString();
+                txt_details.Text += "\nphone: " + read[1].ToString();
+                txt_details.Text += "\naddress: " + read[2].ToString();
+                txt_details.Text += "\ndob: " + read[3].ToString();
+                txt_details.Text += "\ngender: " + read[4].ToString();
             }
+            else
+            {
+                MessageBox.Show("This number does not exit");
+            }
+            sqlcon.Close();
 
             sqlcon.Close();
         }
