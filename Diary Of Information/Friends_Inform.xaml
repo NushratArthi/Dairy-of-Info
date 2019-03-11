@@ -19,6 +19,14 @@
         </Button>
         <Label Content=" Information" HorizontalAlignment="Left" Margin="89,155,0,0" VerticalAlignment="Top" Height="39" Width="138" FontWeight="Bold" FontSize="20" Background="#FF5DF53B"/>
         <TextBlock x:Name="txt_details" HorizontalAlignment="Left" Margin="285,155,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="264" Width="491" FontSize="20" Background="White"/>
+        <Button x:Name="home" Content="Home" HorizontalAlignment="Left" Margin="285,454,0,0" VerticalAlignment="Top" Width="491" Height="49" FontWeight="Bold" FontSize="20" BorderBrush="#FFD4940A" Click="home_btn_click">
+            <Button.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FF43DF2C" Offset="0"/>
+                    <GradientStop Color="#FFD1FE02" Offset="1"/>
+                </LinearGradientBrush>
+            </Button.Background>
+        </Button>
 
 
         <Label Content="                                      Check Details Here" HorizontalAlignment="Left" Margin="89,23,0,0" VerticalAlignment="Top" Width="687" Height="39" FontSize="24" FontWeight="Bold" Background="#FFFB3E20" Foreground="White" Padding="5,4,5,5" OpacityMask="#FFF74C1A"/>

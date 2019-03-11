@@ -78,6 +78,8 @@ namespace Diary_Of_Information
 
         internal System.Windows.Controls.TextBox txt_search;
         internal System.Windows.Controls.Button search;
+        internal System.Windows.Controls.TextBlock txt_details;
+        internal System.Windows.Controls.Button home;
     }
 }
 
