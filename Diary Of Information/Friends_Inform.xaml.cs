@@ -45,7 +45,7 @@ namespace Diary_Of_Information
             string connectionstring = @"Data Source=ARTHI\ARTHISQL;Initial Catalog=diary;Integrated Security=True";
             SqlConnection sqlcon = new SqlConnection(connectionstring);
             sqlcon.Open();
-            string commandstring = "select * from table_name";
+            string commandstring = "select * from information where phone = '" + txt_search.Text + "'";
             SqlCommand sqlcmd = new SqlCommand(commandstring, sqlcon);
             SqlDataReader read = sqlcmd.ExecuteReader();
 
