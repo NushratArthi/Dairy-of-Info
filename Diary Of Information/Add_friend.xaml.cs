@@ -37,14 +37,33 @@ namespace Diary_Of_Information
 
         private void submit_btn_click(object sender, RoutedEventArgs e)
         {
+            string name, address, dob, gender;
+            int phone;
+            name = txt_name.Text;
+            phone = int.Parse(txt_phone.Text);
+            address = txt_address.Text;
+            dob = date_dob.SelectedDate.Value.ToShortDateString();
+            if (radio_male.IsChecked.Value == true)
+            {
+                gender = "male";
+            }
+            else
+            {
+                gender = "female";
+            }
+
+
+
             string connectionstring = @"Data Source=ARTHI\ARTHISQL;Initial Catalog=diary;Integrated Security=True";
             SqlConnection sqlcon = new SqlConnection(connectionstring);
 
-            SqlCommand cmd = new SqlCommand("insert into table_name(column_names...) values(@a,@b,@c....)", sqlcon);
+            SqlCommand cmd = new SqlCommand("insert into information(name,phone,address,dob,gender) values(@a,@b,@c,@d,@e)", sqlcon);
 
             cmd.Parameters.Add("@a", SqlDbType.VarChar).Value = name;
-            cmd.Parameters.Add("@b", SqlDbType.Date).Value = datepicker_variable_name.SelectedDate.Value.ToShortDateString();
-            cmd.Parameters.Add("@c", SqlDbType.Int).Value = amount;
+            cmd.Parameters.Add("@b", SqlDbType.Int).Value = phone;
+            cmd.Parameters.Add("@c", SqlDbType.VarChar).Value = address;
+            cmd.Parameters.Add("@d", SqlDbType.Date).Value = dob;
+            cmd.Parameters.Add("@e", SqlDbType.VarChar).Value = gender;
 
             sqlcon.Open();
             int rows = cmd.ExecuteNonQuery();
