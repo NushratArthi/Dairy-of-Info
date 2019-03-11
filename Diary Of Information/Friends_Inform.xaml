@@ -30,7 +30,6 @@
 
 
         <Label Content="                                      Check Details Here" HorizontalAlignment="Left" Margin="89,23,0,0" VerticalAlignment="Top" Width="687" Height="39" FontSize="24" FontWeight="Bold" Background="#FFFB3E20" Foreground="White" Padding="5,4,5,5" OpacityMask="#FFF74C1A"/>
-        <Button Content="Button" HorizontalAlignment="Left" Margin="1090,250,-325,0" VerticalAlignment="Top" Width="75"/>
 
     </Grid>
 </Window>
