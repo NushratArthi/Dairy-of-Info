@@ -47,7 +47,7 @@ namespace Diary_Of_Information
 
             string commandstring = "delete from information where phone= @a";
             SqlCommand sqlcmd = new SqlCommand(commandstring, sqlcon);
-            sqlcmd.Parameters.Add("@a", SqlDbType.VarChar).Value = abc.Text;
+            sqlcmd.Parameters.Add("@a", SqlDbType.Int).Value = int.Parse(txt_phone.Text);
             sqlcon.Open();
             int rows = sqlcmd.ExecuteNonQuery();
             sqlcon.Close();
