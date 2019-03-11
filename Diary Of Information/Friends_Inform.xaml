@@ -17,6 +17,7 @@
                 </LinearGradientBrush>
             </Button.Background>
         </Button>
+        <Label Content=" Information" HorizontalAlignment="Left" Margin="89,155,0,0" VerticalAlignment="Top" Height="39" Width="138" FontWeight="Bold" FontSize="20" Background="#FF5DF53B"/>
 
         <Label Content="                                      Check Details Here" HorizontalAlignment="Left" Margin="89,23,0,0" VerticalAlignment="Top" Width="687" Height="39" FontSize="24" FontWeight="Bold" Background="#FFFB3E20" Foreground="White" Padding="5,4,5,5" OpacityMask="#FFF74C1A"/>
 
