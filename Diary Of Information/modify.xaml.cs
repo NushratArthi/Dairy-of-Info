@@ -40,6 +40,23 @@ namespace Diary_Of_Information
             {
                 gender = "female";
             }
+
+
+
+            string connectionstring = @"Data Source=server_name;Initial Catalog=Database_name;Integrated Security=True";
+            SqlConnection sqlcon = new SqlConnection(connectionstring);
+
+            string commandstring = "update table_name set a=@pre,b=@par  where c=xyz";
+            SqlCommand sqlcmd = new SqlCommand(commandstring, sqlcon);
+            sqlcmd.Parameters.Add("@pre", SqlDbType.VarChar).Value = txt_present_address.Text;
+            sqlcmd.Parameters.Add("@par", SqlDbType.VarChar).Value = txt_parmanent_address.Text;
+
+            sqlcon.Open();
+            int rows = sqlcmd.ExecuteNonQuery();
+            sqlcon.Close();
+
+            if (rows == 1)
+                MessageBox.Show("Information Has Updated.");
         }
     }
 }
