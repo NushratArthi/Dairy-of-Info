@@ -24,4 +24,8 @@ namespace Diary_Of_Information
             InitializeComponent();
         }
     }
+    private void txt_phone_focus(object sender, RoutedEventArgs e)
+    {
+        txt_phone.Text = "";
+    }
 }
