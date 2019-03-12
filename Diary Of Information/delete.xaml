@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Diary_Of_Information"
         mc:Ignorable="d"
-        Title="delete" Height="450" Width="800">
+        Title="Delete Information" Height="450" Width="800">
     <Grid>
         
     </Grid>
