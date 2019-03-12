@@ -42,5 +42,19 @@ namespace Diary_Of_Information
                 this.Close();
             }
         }
+
+        private void friends_inform_click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void friends_inform_btn_click(object sender, RoutedEventArgs e)
+        {
+            Friends_Inform fi = new Friends_Inform();
+            {
+                fi.Show();
+                this.Close();
+            }
+        }
     }
 }
