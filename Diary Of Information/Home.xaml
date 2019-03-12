@@ -35,7 +35,7 @@
                 </LinearGradientBrush>
             </Button.Background>
         </Button>
-        <Button x:Name="delete" Content="Delete" HorizontalAlignment="Left" Margin="499.681,339,0,0" VerticalAlignment="Top" Width="198" Height="60" FontFamily="Monotype Corsiva" FontSize="24" FontWeight="Bold" Grid.Column="1">
+        <Button x:Name="delete" Content="Delete" HorizontalAlignment="Left" Margin="499.681,339,0,0" VerticalAlignment="Top" Width="198" Height="60" FontFamily="Monotype Corsiva" FontSize="24" FontWeight="Bold" Grid.Column="1" Click="delete_btn_click">
             <Button.Background>
                 <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                     <GradientStop Color="#FFF14141" Offset="0"/>

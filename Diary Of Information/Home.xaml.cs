@@ -65,5 +65,14 @@ namespace Diary_Of_Information
                 this.Close();
             }
         }
+
+        private void delete_btn_click(object sender, RoutedEventArgs e)
+        {
+            delete dl = new delete();
+            {
+                dl.Show();
+                this.Close();
+            }
+        }
     }
 }
