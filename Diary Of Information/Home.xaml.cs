@@ -56,5 +56,14 @@ namespace Diary_Of_Information
                 this.Close();
             }
         }
+
+        private void modify_btn_click(object sender, RoutedEventArgs e)
+        {
+            modify mf = new modify();
+            {
+                mf.Show();
+                this.Close();
+            }
+        }
     }
 }
