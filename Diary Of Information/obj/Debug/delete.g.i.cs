@@ -78,6 +78,7 @@ namespace Diary_Of_Information
 
         internal System.Windows.Controls.TextBox txt_phone;
         internal System.Windows.Controls.Button del;
+        internal System.Windows.Controls.Button home;
     }
 }
 
