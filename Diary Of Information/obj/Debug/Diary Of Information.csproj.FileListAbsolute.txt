@@ -59,3 +59,13 @@ C:\Users\Tania\Source\Repos\NushratArthi\Dairy-of-Info\Diary Of Information\obj\
 C:\Users\Tania\Source\Repos\NushratArthi\Dairy-of-Info\Diary Of Information\obj\Debug\Diary Of Information.csproj.CoreCompileInputs.cache
 C:\Users\Tania\Source\Repos\NushratArthi\Dairy-of-Info\Diary Of Information\obj\Debug\Diary Of Information.exe
 C:\Users\Tania\Source\Repos\NushratArthi\Dairy-of-Info\Diary Of Information\obj\Debug\Diary Of Information.pdb
+C:\Users\USER\Source\Repos\NushratArthi\Dairy-of-Info\Diary Of Information\obj\Debug\Diary Of Information.csprojAssemblyReference.cache
+C:\Users\USER\Source\Repos\NushratArthi\Dairy-of-Info\Diary Of Information\obj\Debug\Add_friend.g.cs
+C:\Users\USER\Source\Repos\NushratArthi\Dairy-of-Info\Diary Of Information\obj\Debug\Friends_Inform.g.cs
+C:\Users\USER\Source\Repos\NushratArthi\Dairy-of-Info\Diary Of Information\obj\Debug\Home.g.cs
+C:\Users\USER\Source\Repos\NushratArthi\Dairy-of-Info\Diary Of Information\obj\Debug\MainWindow.g.cs
+C:\Users\USER\Source\Repos\NushratArthi\Dairy-of-Info\Diary Of Information\obj\Debug\App.g.cs
+C:\Users\USER\Source\Repos\NushratArthi\Dairy-of-Info\Diary Of Information\obj\Debug\Diary Of Information_MarkupCompile.cache
+C:\Users\USER\Source\Repos\NushratArthi\Dairy-of-Info\Diary Of Information\obj\Debug\Diary Of Information_MarkupCompile.lref
+C:\Users\USER\Source\Repos\NushratArthi\Dairy-of-Info\Diary Of Information\obj\Debug\Diary Of Information.exe
+C:\Users\USER\Source\Repos\NushratArthi\Dairy-of-Info\Diary Of Information\obj\Debug\Diary Of Information.pdb
