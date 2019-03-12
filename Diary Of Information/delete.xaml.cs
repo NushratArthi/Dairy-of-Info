@@ -23,6 +23,15 @@ namespace Diary_Of_Information
         {
             InitializeComponent();
         }
+
+        private void home_btn_click(object sender, RoutedEventArgs e)
+        {
+            Home hm = new Home();
+            {
+                hm.Show();
+                this.Close();
+            }
+        }
     }
     private void txt_phone_focus(object sender, RoutedEventArgs e)
     {
