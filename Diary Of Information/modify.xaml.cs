@@ -26,6 +26,21 @@ namespace Diary_Of_Information
             InitializeComponent();
         }
 
+
+        private void home_btn_click(object sender, RoutedEventArgs e)
+        {
+            Home hm = new Home();
+            {
+                hm.Show();
+                this.Close();
+            }
+        }
+        private void txt_search_focus(object sender, RoutedEventArgs e)
+        {
+            txt_search.Text = "";
+        }
+
+
         private void update_btn_click(object sender, RoutedEventArgs e)
         {
             string name, address, dob, gender;
@@ -44,13 +59,15 @@ namespace Diary_Of_Information
             }
 
 
-            string connectionstring = @"Data Source=ARTHI\ARTHISQL;Initial Catalog=diary;Integrated Security=True";
+
+            string connectionstring = @"Data Source=ARTHI\ARTHISQL;Initial Catalog=diary;Integrated Security=True ";
             SqlConnection sqlcon = new SqlConnection(connectionstring);
 
             string commandstring = "update information set name=@a,phone=@b,address=@c  where phone='" + txt_phone.Text + "'";
             SqlCommand sqlcmd = new SqlCommand(commandstring, sqlcon);
-            sqlcmd.Parameters.Add("@pre", SqlDbType.VarChar).Value = txt_present_address.Text;
-            sqlcmd.Parameters.Add("@par", SqlDbType.VarChar).Value = txt_parmanent_address.Text;
+            sqlcmd.Parameters.Add("@a", SqlDbType.VarChar).Value = txt_name.Text;
+            sqlcmd.Parameters.Add("@b", SqlDbType.Int).Value = txt_phone.Text;
+            sqlcmd.Parameters.Add("@c", SqlDbType.VarChar).Value = txt_address.Text;
 
             sqlcon.Open();
             int rows = sqlcmd.ExecuteNonQuery();
@@ -58,6 +75,33 @@ namespace Diary_Of_Information
 
             if (rows == 1)
                 MessageBox.Show("Information Has Updated.");
+        }
+
+
+        private void search_btn_click(object sender, RoutedEventArgs e)
+        {
+            string connectionstring = @"Data Source=ARTHI\ARTHISQL;Initial Catalog=diary;Integrated Security=True";
+            SqlConnection sqlcon = new SqlConnection(connectionstring);
+            sqlcon.Open();
+            string commandstring = "select * from information WHERE phone='" + txt_search.Text + "'";
+            SqlCommand sqlcmd = new SqlCommand(commandstring, sqlcon);
+            SqlDataReader read = sqlcmd.ExecuteReader();
+
+
+            if (read.Read())
+            {
+
+                txt_name.Text = read.GetValue(0).ToString();
+                txt_phone.Text = read.GetValue(1).ToString();
+                txt_address.Text = read.GetValue(2).ToString();
+                date_dob.Text = read.GetValue(3).ToString();
+            }
+            else
+            {
+                MessageBox.Show("This number does not exit");
+            }
+
+            sqlcon.Close();
         }
     }
 }
