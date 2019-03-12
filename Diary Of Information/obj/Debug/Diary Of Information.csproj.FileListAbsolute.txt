@@ -69,3 +69,14 @@ C:\Users\USER\Source\Repos\NushratArthi\Dairy-of-Info\Diary Of Information\obj\D
 C:\Users\USER\Source\Repos\NushratArthi\Dairy-of-Info\Diary Of Information\obj\Debug\Diary Of Information_MarkupCompile.lref
 C:\Users\USER\Source\Repos\NushratArthi\Dairy-of-Info\Diary Of Information\obj\Debug\Diary Of Information.exe
 C:\Users\USER\Source\Repos\NushratArthi\Dairy-of-Info\Diary Of Information\obj\Debug\Diary Of Information.pdb
+C:\Users\USER\Source\Repos\NushratArthi\Dairy-of-Info\Diary Of Information\bin\Debug\Diary Of Information.exe.config
+C:\Users\USER\Source\Repos\NushratArthi\Dairy-of-Info\Diary Of Information\bin\Debug\Diary Of Information.exe
+C:\Users\USER\Source\Repos\NushratArthi\Dairy-of-Info\Diary Of Information\bin\Debug\Diary Of Information.pdb
+C:\Users\USER\Source\Repos\NushratArthi\Dairy-of-Info\Diary Of Information\obj\Debug\Add_friend.baml
+C:\Users\USER\Source\Repos\NushratArthi\Dairy-of-Info\Diary Of Information\obj\Debug\Friends_Inform.baml
+C:\Users\USER\Source\Repos\NushratArthi\Dairy-of-Info\Diary Of Information\obj\Debug\Home.baml
+C:\Users\USER\Source\Repos\NushratArthi\Dairy-of-Info\Diary Of Information\obj\Debug\MainWindow.baml
+C:\Users\USER\Source\Repos\NushratArthi\Dairy-of-Info\Diary Of Information\obj\Debug\Diary Of Information.g.resources
+C:\Users\USER\Source\Repos\NushratArthi\Dairy-of-Info\Diary Of Information\obj\Debug\Diary_Of_Information.Properties.Resources.resources
+C:\Users\USER\Source\Repos\NushratArthi\Dairy-of-Info\Diary Of Information\obj\Debug\Diary Of Information.csproj.GenerateResource.cache
+C:\Users\USER\Source\Repos\NushratArthi\Dairy-of-Info\Diary Of Information\obj\Debug\Diary Of Information.csproj.CoreCompileInputs.cache

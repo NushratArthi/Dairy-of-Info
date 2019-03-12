@@ -32,5 +32,11 @@ namespace Diary_Of_Information
                 this.Close();
             }
         }
+
+        private void txt_search_focus(object sender, RoutedEventArgs e)
+        {
+            txt_search.Text = "";
+        }
+
     }
 }
