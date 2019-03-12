@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:Diary_Of_Information"
         mc:Ignorable="d"
         Title="Modify Information" Height="584.042" Width="846.277" ResizeMode="NoResize">
-    <Grid>
+    <Grid Background="#FF3C3636">
         
     </Grid>
 </Window>
