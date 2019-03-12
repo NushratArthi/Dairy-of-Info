@@ -80,3 +80,7 @@ C:\Users\USER\Source\Repos\NushratArthi\Dairy-of-Info\Diary Of Information\obj\D
 C:\Users\USER\Source\Repos\NushratArthi\Dairy-of-Info\Diary Of Information\obj\Debug\Diary_Of_Information.Properties.Resources.resources
 C:\Users\USER\Source\Repos\NushratArthi\Dairy-of-Info\Diary Of Information\obj\Debug\Diary Of Information.csproj.GenerateResource.cache
 C:\Users\USER\Source\Repos\NushratArthi\Dairy-of-Info\Diary Of Information\obj\Debug\Diary Of Information.csproj.CoreCompileInputs.cache
+C:\Users\USER\Source\Repos\NushratArthi\Dairy-of-Info\Diary Of Information\obj\Debug\delete.g.cs
+C:\Users\USER\Source\Repos\NushratArthi\Dairy-of-Info\Diary Of Information\obj\Debug\modify.g.cs
+C:\Users\USER\Source\Repos\NushratArthi\Dairy-of-Info\Diary Of Information\obj\Debug\modify.baml
+C:\Users\USER\Source\Repos\NushratArthi\Dairy-of-Info\Diary Of Information\obj\Debug\delete.baml

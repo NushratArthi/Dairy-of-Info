@@ -32,9 +32,10 @@ namespace Diary_Of_Information
                 this.Close();
             }
         }
-    }
-    private void txt_phone_focus(object sender, RoutedEventArgs e)
-    {
-        txt_phone.Text = "";
+        private void txt_phone_focus(object sender, RoutedEventArgs e)
+        {
+            txt_phone.Text = "";
+        }
+
     }
 }
