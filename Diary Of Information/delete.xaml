@@ -7,6 +7,7 @@
         mc:Ignorable="d"
         Title="Delete Information" Height="584.042" Width="846.277" ResizeMode="NoResize">
     <Grid Background="#FF3C3636">
+        <TextBox x:Name="txt_phone" HorizontalAlignment="Left" Height="51" Margin="119,180,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="374" Text="input phone number" GotFocus="txt_phone_focus"/>
         
     </Grid>
 </Window>
