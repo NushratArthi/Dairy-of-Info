@@ -5,20 +5,20 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Diary_Of_Information"
         mc:Ignorable="d"
-        Title="Modify Information" Height="612.245" Width="1235.264" ResizeMode="NoResize">
+        Title="Modify Information" Height="591.534" Width="1231.121" ResizeMode="NoResize">
     <Grid Background="#FF3C3636">
-        <Label Content="Address" HorizontalAlignment="Left" Margin="98,200,0,0" VerticalAlignment="Top" Width="104" FontSize="20" FontWeight="Bold" Foreground="White"/>
-        <Label Content="Phone" HorizontalAlignment="Left" Margin="98,137,0,0" VerticalAlignment="Top" Width="104" FontSize="20" FontWeight="Bold" Foreground="White"/>
-        <Label Content="Name" HorizontalAlignment="Left" Margin="98,78,0,0" VerticalAlignment="Top" Width="104" FontSize="20" FontWeight="Bold" Foreground="White"/>
-        <TextBox x:Name="txt_search" HorizontalAlignment="Left" Height="37" Margin="322,23,0,0" TextWrapping="Wrap" Text="Search by phone" VerticalAlignment="Top" Width="477" GotFocus="txt_search_focus"/>
-        <TextBox x:Name="txt_name" HorizontalAlignment="Left" Height="37" Margin="322,78,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="477" FontSize="18"/>
-        <TextBox x:Name="txt_address" HorizontalAlignment="Left" Height="51" Margin="322,200,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="477" FontSize="18"/>
-        <TextBox x:Name="txt_phone" HorizontalAlignment="Left" Height="37" Margin="322,137,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="477" FontSize="18"/>
-        <Label Content="Gender" HorizontalAlignment="Left" Margin="98,348,0,0" VerticalAlignment="Top" Width="104" FontSize="20" FontWeight="Bold" Foreground="White"/>
-        <Label Content="DOB" HorizontalAlignment="Left" Margin="98,287,0,0" VerticalAlignment="Top" Width="104" FontSize="20" FontWeight="Bold" Foreground="White"/>
-        <RadioButton x:Name="radio_male" Content="Male" HorizontalAlignment="Left" Margin="322,362,0,0" VerticalAlignment="Top" FontSize="18" Width="71" Foreground="White"/>
-        <RadioButton x:Name="radio_female" Content="Female" HorizontalAlignment="Left" Margin="487,362,0,0" VerticalAlignment="Top" FontSize="18" Width="88" Foreground="White"/>
-        <Button x:Name="update" Content="Update" HorizontalAlignment="Left" Margin="322,403,0,0" VerticalAlignment="Top" Width="477" Height="48" RenderTransformOrigin="0.51,0.27" FontSize="22" FontWeight="Bold" Click="update_btn_click">
+        <Label Content="Address" HorizontalAlignment="Left" Margin="98,227,0,0" VerticalAlignment="Top" Width="104" FontSize="20" FontWeight="Bold" Foreground="White"/>
+        <Label Content="Phone" HorizontalAlignment="Left" Margin="98,164,0,0" VerticalAlignment="Top" Width="104" FontSize="20" FontWeight="Bold" Foreground="White"/>
+        <Label Content="Name" HorizontalAlignment="Left" Margin="98,101,0,0" VerticalAlignment="Top" Width="104" FontSize="20" FontWeight="Bold" Foreground="White"/>
+        <TextBox x:Name="txt_search" HorizontalAlignment="Left" Height="51" Margin="322,23,0,0" TextWrapping="Wrap" Text="Search by phone" VerticalAlignment="Top" Width="477" GotFocus="txt_search_focus"/>
+        <TextBox x:Name="txt_name" HorizontalAlignment="Left" Height="37" Margin="322,101,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="477" FontSize="18"/>
+        <TextBox x:Name="txt_address" HorizontalAlignment="Left" Height="51" Margin="322,227,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="477" FontSize="18"/>
+        <TextBox x:Name="txt_phone" HorizontalAlignment="Left" Height="37" Margin="322,164,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="477" FontSize="18"/>
+        <Label Content="Gender" HorizontalAlignment="Left" Margin="98,353,0,0" VerticalAlignment="Top" Width="104" FontSize="20" FontWeight="Bold" Foreground="White"/>
+        <Label Content="DOB" HorizontalAlignment="Left" Margin="98,307,0,0" VerticalAlignment="Top" Width="104" FontSize="20" FontWeight="Bold" Foreground="White"/>
+        <RadioButton x:Name="radio_male" Content="Male" HorizontalAlignment="Left" Margin="322,367,0,0" VerticalAlignment="Top" FontSize="18" Width="71" Foreground="White"/>
+        <RadioButton x:Name="radio_female" Content="Female" HorizontalAlignment="Left" Margin="487,367,0,0" VerticalAlignment="Top" FontSize="18" Width="88" Foreground="White"/>
+        <Button x:Name="update" Content="Update" HorizontalAlignment="Left" Margin="322,417,0,0" VerticalAlignment="Top" Width="477" Height="48" RenderTransformOrigin="0.51,0.27" FontSize="22" FontWeight="Bold" Click="update_btn_click">
             <Button.Background>
                 <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                     <GradientStop Color="#FFFF8B00" Offset="0"/>
@@ -26,7 +26,7 @@
                 </LinearGradientBrush>
             </Button.Background>
         </Button>
-        <Button x:Name="home" Content="Go Home" HorizontalAlignment="Left" Margin="322,469,0,0" VerticalAlignment="Top" Width="477" Height="47" FontWeight="Bold" FontSize="22" Click="home_btn_click">
+        <Button x:Name="home" Content="Go Home" HorizontalAlignment="Left" Margin="322,483,0,0" VerticalAlignment="Top" Width="477" Height="47" FontWeight="Bold" FontSize="22" Click="home_btn_click">
             <Button.Background>
                 <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                     <GradientStop Color="#FF11B933" Offset="0"/>
@@ -34,8 +34,8 @@
                 </LinearGradientBrush>
             </Button.Background>
         </Button>
-        <DatePicker x:Name="date_dob" HorizontalAlignment="Left" Margin="322,287,0,0" VerticalAlignment="Top" Height="37" Width="253"/>
-        <Button x:Name="search" Content="Search" HorizontalAlignment="Left" Margin="122,23,0,0" VerticalAlignment="Top" Width="172" Height="37" FontWeight="Bold" FontSize="20" Click="search_btn_click">
+        <DatePicker x:Name="date_dob" HorizontalAlignment="Left" Margin="322,307,0,0" VerticalAlignment="Top" Height="37" Width="253"/>
+        <Button x:Name="search" Content="Search" HorizontalAlignment="Left" Margin="116,37,0,0" VerticalAlignment="Top" Width="172" Height="37" FontWeight="Bold" FontSize="20" Click="search_btn_click">
             <Button.Background>
                 <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                     <GradientStop Color="#FF268CF1" Offset="0"/>
@@ -49,7 +49,15 @@
                 </LinearGradientBrush>
             </Button.BorderBrush>
         </Button>
-        <DataGrid AutoGenerateColumns="True" x:Name="datagrid1" HorizontalAlignment="Left" Height="428" Margin="833,23,0,0" VerticalAlignment="Top" Width="369" Background="White"/>
+        <DataGrid AutoGenerateColumns="True" x:Name="datagrid1" HorizontalAlignment="Left" Height="442" Margin="833,23,0,0" VerticalAlignment="Top" Width="369" Background="White"/>
+        <Button Content="Load Table" HorizontalAlignment="Left" Margin="931,483,0,0" VerticalAlignment="Top" Width="172" Height="47" FontSize="24" FontWeight="Bold">
+            <Button.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="#FFB718F3" Offset="0"/>
+                    <GradientStop Color="#FFD19EE4" Offset="1"/>
+                </LinearGradientBrush>
+            </Button.Background>
+        </Button>
 
     </Grid>
 </Window>
