@@ -90,13 +90,13 @@ namespace Diary_Of_Information
             SqlConnection sqlcon = new SqlConnection(con);
             sqlcon.Open();
 
-            string sqlquery = "Select  from table name";
+            string sqlquery = "Select name,phone,address,dob,gender from information";
             SqlCommand sqlcmd = new SqlCommand(sqlquery, sqlcon);
 
             SqlDataAdapter data_adapter = new SqlDataAdapter(sqlcmd);
-            DataTable dt = new DataTable("table name");
+            DataTable dt = new DataTable("information");
             data_adapter.Fill(dt);
-            datagrid_details.ItemsSource = dt.DefaultView;
+            datagrid1.ItemsSource = dt.DefaultView;
             data_adapter.Update(dt);
             sqlcon.Close();
         }
