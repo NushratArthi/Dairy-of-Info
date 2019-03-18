@@ -106,7 +106,7 @@ namespace Diary_Of_Information
 
         private void load_table_click(object sender, RoutedEventArgs e)
         {
-            string con = @"Data Source=server name;Initial Catalog=database name;Integrated Security=True";
+            string con = @"Data Source=ARTHI\ARTHISQL;Initial Catalog=diary;Integrated Security=True";
             SqlConnection sqlcon = new SqlConnection(con);
             sqlcon.Open();
 
