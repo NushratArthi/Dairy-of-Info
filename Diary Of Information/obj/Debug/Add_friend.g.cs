@@ -197,6 +197,7 @@ namespace Diary_Of_Information
         }
 
         internal System.Windows.Controls.DataGrid datagrid1;
+        internal System.Windows.Controls.Button load_table;
     }
 }
 

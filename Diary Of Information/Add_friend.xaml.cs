@@ -83,5 +83,22 @@ namespace Diary_Of_Information
             txt_phone.Clear();
             txt_address.Clear();
         }
+
+        private void load_table_click(object sender, RoutedEventArgs e)
+        {
+            string con = @"Data Source=server name;Initial Catalog=database name;Integrated Security=True";
+            SqlConnection sqlcon = new SqlConnection(con);
+            sqlcon.Open();
+
+            string sqlquery = "Select  from table name";
+            SqlCommand sqlcmd = new SqlCommand(sqlquery, sqlcon);
+
+            SqlDataAdapter data_adapter = new SqlDataAdapter(sqlcmd);
+            DataTable dt = new DataTable("table name");
+            data_adapter.Fill(dt);
+            datagrid_details.ItemsSource = dt.DefaultView;
+            data_adapter.Update(dt);
+            sqlcon.Close();
+        }
     }
 }
