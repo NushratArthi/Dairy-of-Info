@@ -50,7 +50,7 @@
             </Button.BorderBrush>
         </Button>
         <DataGrid AutoGenerateColumns="True" x:Name="datagrid1" HorizontalAlignment="Left" Height="442" Margin="833,23,0,0" VerticalAlignment="Top" Width="369" Background="White"/>
-        <Button Content="Load Table" HorizontalAlignment="Left" Margin="931,483,0,0" VerticalAlignment="Top" Width="172" Height="47" FontSize="24" FontWeight="Bold">
+        <Button x:Name="load_table" Content="Load Table" HorizontalAlignment="Left" Margin="931,483,0,0" VerticalAlignment="Top" Width="172" Height="47" FontSize="24" FontWeight="Bold" Click="load_table_click">
             <Button.Background>
                 <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                     <GradientStop Color="#FFB718F3" Offset="0"/>
