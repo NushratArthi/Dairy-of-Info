@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Diary_Of_Information"
         mc:Ignorable="d"
-        Title="Modify Information" Height="577.037" Width="1200.056" ResizeMode="NoResize">
+        Title="Modify Information" Height="612.245" Width="1235.264" ResizeMode="NoResize">
     <Grid Background="#FF3C3636">
         <Label Content="Address" HorizontalAlignment="Left" Margin="98,200,0,0" VerticalAlignment="Top" Width="104" FontSize="20" FontWeight="Bold" Foreground="White"/>
         <Label Content="Phone" HorizontalAlignment="Left" Margin="98,137,0,0" VerticalAlignment="Top" Width="104" FontSize="20" FontWeight="Bold" Foreground="White"/>
@@ -49,6 +49,7 @@
                 </LinearGradientBrush>
             </Button.BorderBrush>
         </Button>
+        <DataGrid AutoGenerateColumns="True" x:Name="datagrid1" HorizontalAlignment="Left" Height="428" Margin="833,23,0,0" VerticalAlignment="Top" Width="369" Background="White"/>
 
     </Grid>
 </Window>
